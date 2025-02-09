@@ -1,0 +1,62 @@
+.logo img {
+  width: 80px;
+  padding: 10px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  margin: 10px;
+  border-radius: 50px;
+}
+.nav-item > ul {
+  display: flex;
+  list-style: none;
+}
+.nav-item > ul > li {
+  padding: 10px;
+  margin: 10px;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+}
+.search {
+  justify-items: center;
+  margin: auto;
+  padding: 10px;
+}
+.restaurant-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 85%;
+  margin: auto;
+}
+.restaurant-card {
+  justify-items: center;
+  align-items: center;
+  width: 220px;
+  border-radius: 10%;
+  padding: 10px;
+  margin: 10px;
+}
+.restaurant-card > img {
+  border-radius: 8%;
+  width: 220px;
+  height: 150px;
+  object-fit: cover;
+}
+.restaurant-card:hover {
+  transform: scale(0.95);
+  cursor: pointer;
+}
+.card-content > h3,
+h4 {
+  width: 200px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
